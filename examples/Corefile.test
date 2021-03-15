@@ -1,0 +1,9 @@
+dev.example.org {
+  errors
+  # cancel 1s
+  localstar {
+    to_zone example.org
+    endpoint /etc/resolv.conf
+    timeout 4s
+  }
+}
